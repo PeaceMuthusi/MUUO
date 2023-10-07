@@ -1,0 +1,55 @@
+
+        body{
+            background-color: aquamarine;
+            justify-content: center;   
+            text-align: center;
+            align-items: center;
+            margin: 10px auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-size: 20px;
+            color: rgb(58, 13, 56); 
+        }
+        #first_p{
+            font-size: 30px;
+        }
+        .myimgs{
+            margin: 10px auto;
+            max-width: 80%;
+            max-height: 600px;
+            display: flex;
+            background-color: skyblue;
+            justify-content: space-around;
+        }
+        .myimgs img{
+            width:26%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .nissi{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-size: 14px;
+            font-weight: bold;
+            font-variant: inherit;
+            color:rgba(0, 0, 0,0.9) ;
+            text-align:justify ;  
+            text-decoration: underline;   
+            text-indent: 20px;   
+        }
+        a{
+            text-decoration: none;
+        }
+        button{
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font: bold 18px sans=sereif;
+            background: #2afd3f;
+            transition: 0.8s;
+        }
+        button:hover{
+            background-color: blue;
+        }
+    
